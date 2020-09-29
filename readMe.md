@@ -38,11 +38,17 @@ It can be used for various things:
 - cargo vehicle space management (keep in mind that this algorithm doesn't take into account the boxes weight)
 - others (**Example**: I needed it for a game feature)
 ## Examples of use
-things
+You can see some example code in example scripts from **examples** directory.
+<br />
+As I mentioned I already developed a graphic version of **3D bin-packing** (check here [3D Bin Packing Graphic Version](https://github.com/DragosCosmin2000/3D-Bin-Packing-Graphic-Version)).
+<br />
+But if you don't want to install the packages or to use the executable, you can represent the output data by yourself:
+- Use pen and paper (kind of weird and not environmentally friendly:), I don't recommend)
+- Use a 3D modeling web application (Example: [SketchUp](https://app.sketchup.com/app))
+- Use some unusual ways (lego pieces, cubic shapes)
 ## Sources
 The strategy is based on Erick Dube and Leon Reeves Kanavathy research [Optimizing Three-Dimensional Bin Packing Through Simulation](https://www.researchgate.net/publication/228974015_Optimizing_Three-Dimensional_Bin_Packing_Through_Simulation)
-
 ## Other information
-####Contact
+#### Contact
 * **gmail**: tudorachedragos2k@gmail.com
 * **linkedin**: [My linkedin](https://www.linkedin.com/in/dragos-tudorache-8b15131b5/)
