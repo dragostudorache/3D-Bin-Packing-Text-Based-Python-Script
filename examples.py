@@ -40,6 +40,7 @@ import random
 
 print("\n\nRANDOM TESTS:")
 number_of_tests = 10
+average_space_wasted = 0
 
 for i in range(number_of_tests):
     # dimensions
@@ -77,3 +78,6 @@ for i in range(number_of_tests):
     space_wasted = space_wasted * 100 / T_volume
     print('%.2f'%space_wasted, "\b% space wasted")
     print("\n")
+    average_space_wasted += space_wasted
+
+print("Average space wasted:", average_space_wasted / number_of_tests)

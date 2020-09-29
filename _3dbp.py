@@ -40,7 +40,7 @@ class Bin(object):
             self.vector_3D.append(new_list1)
 
     def print_data(self):
-        print(self.name, "|", self.width, "x", self.height, "x", self.depth, "|", len(self.items), "items |", self.remaining_space, "remaining space")
+        print(self.name, "|", "Dimensions:", self.width, "x", self.height, "x", self.depth, "|", len(self.items), "items |", self.remaining_space, "remaining space")
 
     # pack the item in the current bin and edit item's properties(position and rotation type)
     def pack(self, item, position, type):
@@ -105,7 +105,7 @@ class Item(object):
         self.RT = 0
 
     def print_data(self):
-        print(self.name, "|", self.width, "x", self.height, "x", self.depth, "|", self.pos, "| self.RT =", self.RT)
+        print(self.name, "|", "Dimensions:", self.width, "x", self.height, "x", self.depth, "|", "Position [x, y, z]:", self.pos, "| rotation type:", self.RT)
 
     # rotations
     def rotate(self, type):
@@ -156,7 +156,7 @@ def sort_by_volume(item_list):
 
     return item_list
 
-def bp3D(current_bin, Items):
+def bp3D(current_bin, Items): # (Bin object, list of Item objects)
     # conditions, wrong arguments
     if type(current_bin) != Bin:
         print("Incorrect current_bin parameter!")
