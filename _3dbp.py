@@ -199,7 +199,7 @@ def bp3D(current_bin, Items):
             # if no change is detected the loop will stop
             not_changes = True
 
-            # for every existing item in notPacked
+            # for every existing item in notPacked try to find a position in bin in which the item can fit
             for i in range(len(notPacked)):
                 # get current item
                 current_item = notPacked[i]

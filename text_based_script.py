@@ -2,8 +2,8 @@
 import _3dbp
 
 def print_script_info():
-    print("Script and algorithm info")
-    print("")
+    print("Simple python script that simulates the packaging of rectangular boxes of any size.")
+    print("Check out the readMe.md file for more info.")
 
 def print_options():
     print("\"exit\" - ends the script.")
