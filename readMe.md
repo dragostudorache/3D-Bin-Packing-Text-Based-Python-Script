@@ -20,7 +20,7 @@ The algorithm doesn't offer the **optimal solution** sometimes but the average w
 #### Graphical version
 Also, I developed a graphic version of **3D bin-packing** that uses the algorithm mentioned above.
 <br />
-[3D Bin Packing Graphic Version](https://github.com/DragosCosmin2000/3D-Bin-Packing-Graphic-Version)
+[3D Bin Packing Graphic Version](https://github.com/DragosCosmin2000/3D-Bin-Packing-Python-Application)
 ## Technologies
 * Python 3.8.3
 * Modules:
