@@ -17,7 +17,7 @@ run _text_based_script.py_ for a simple **terminal UI** and
 check _examples_ directory if you want to see some examples about how can you use the code in your projects.
 <br />
 The algorithm doesn't offer the **optimal solution** sometimes but the average wasted space is below 5% which is pretty good for my needs (given that it's a NP hard problem).
-#### Graphic version
+#### Graphical version
 Also, I developed a graphic version of **3D bin-packing** that uses the algorithm mentioned above.
 <br />
 [3D Bin Packing Graphic Version](https://github.com/DragosCosmin2000/3D-Bin-Packing-Graphic-Version)
